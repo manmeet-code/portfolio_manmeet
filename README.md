@@ -1,2 +1,2 @@
 # portfolio_manmeet
-This is my portfolio webiste 
+This is my portfolio website
