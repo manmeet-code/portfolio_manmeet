@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Showcasing My Work</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1276f8f67e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <img src="Images/Logo1.jpg" alt="My Name Logo" class="logo">
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            <ul class="links" id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="header-wrapper">
+        <div id="header">
+            <div class="Heading">
+                <p style="font-size: larger;">Web Developer</p>
+                <h1> Hey, I'm <br> <span>Manmeet Dhillon</span> from Canada</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column-1">
+                    <img src="Images/about.jpeg" alt="Manmeet Dhillon" />
+                </div>
+                <div class="about-column-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a passionate web developer with experience in creating dynamic and responsive web applications. I specialize in building user-friendly interfaces and developing robust web solutions. With a solid foundation in both front-end and back-end technologies, I strive to deliver high-quality projects that meet the needs of clients and users alike.</p>
+                    <div class="section-titles">
+                        <p class="section-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="section-links" onclick="opentab('experience')">Experience</p>
+                        <p class="section-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="section-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web development</span><br> Web App Development</li>
+                            <li><span>UI/UX</span><br>Building React Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="section-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Proficient in creating responsive web designs.</li>
+                            <li><span>JavaScript</span><br>Experience with modern JavaScript frameworks like React.</li>
+                            <li><span>XAML</span><br>Skilled in building user interfaces using XAML.</li>
+                        </ul>
+                    </div>
+                    <div class="section-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer</span><br>Developed various web applications including a portfolio, a calculator, and a login page.</li>
+                            <li><span>React Developer</span><br>Built a dynamic React app with responsive design.</li>
+                            <li><span>UI/UX Designer</span><br>Designed and implemented user interfaces for web and mobile applications.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <h1 class="subtitle">My Services</h1>
+        <div class="container">
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealing and user-friendly web designs tailored to your needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Development</h2>
+                    <p>Building robust and scalable web applications using modern technologies.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Mobile App Development</h2>
+                    <p>Developing cross-platform mobile apps with a focus on performance and usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist" style="color: aliceblue;">
+                <div class="work"><img src="Images/work1.jpg" alt="Portfolio Project 1"></img>
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>A showcase of my work including various web and mobile applications.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work"><img src="Images/work2.jpg" alt="Calculator Project"></img>
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>A functional and interactive calculator built using HTML, CSS, and JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="Images/work3.jpg" alt="React App"></img>
+                    <div class="layer">
+                        <h3>React App</h3>
+                        <p>A dynamic React application with modern features and responsive design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> kmanmeet3384@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> XXXXXXXXXXX</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/yourprofile"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/yourprofile"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/yourprofile"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/yourprofile"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="path/to/yourcv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" action="https://script.google.com/macros/s/AKfycby3m3G8PgjfZmP8qGK3Ow4uYDN4U5surULXwXVKdU5nc9yF6KHGCfZRucRWJjzphr0w/exec">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn btn2" type="submit">Submit</button>
+                        </form>
+                        <span id="message"></span>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2024 Manmeet Dhillon. Made with <i class="fa-solid fa-heart"></i>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var sectionlinks = document.getElementsByClassName("section-links");
+            var sectioncontents = document.getElementsByClassName("section-contents");
+
+            function opentab(tabname) {
+                for (var sectionlink of sectionlinks) {
+                    sectionlink.classList.remove("active-link");
+                }
+                for (var sectioncontent of sectioncontents) {
+                    sectioncontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+            function openmenu() {
+            document.querySelector('nav').classList.add('active');
+        }
+
+        function closemenu() {
+            document.querySelector('nav').classList.remove('active');
+        }
+
+        </script>
+        <script>
+            const scriptURL = '<SCRIPT URL>'
+            const form = document.forms['submit-to-google-sheet']
+           const message=document.getElementById("message")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    message.innerHTML="Message sent succeessfully !"
+                setTimeout(function(){
+                    message.innerHTML=""
+                },5000)
+                form.reset();
+                })
+                
+
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+
+</html>
